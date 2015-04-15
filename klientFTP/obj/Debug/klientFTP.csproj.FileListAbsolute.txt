@@ -1,0 +1,8 @@
+c:\dotnet\klientFTP\klientFTP\bin\Debug\klientFTP.exe.config
+c:\dotnet\klientFTP\klientFTP\bin\Debug\klientFTP.exe
+c:\dotnet\klientFTP\klientFTP\bin\Debug\klientFTP.pdb
+c:\dotnet\klientFTP\klientFTP\obj\Debug\klientFTP.Form1.resources
+c:\dotnet\klientFTP\klientFTP\obj\Debug\klientFTP.Properties.Resources.resources
+c:\dotnet\klientFTP\klientFTP\obj\Debug\klientFTP.csproj.GenerateResource.Cache
+c:\dotnet\klientFTP\klientFTP\obj\Debug\klientFTP.exe
+c:\dotnet\klientFTP\klientFTP\obj\Debug\klientFTP.pdb

@@ -1,0 +1,83 @@
+section .tekst
+global _start
+
+_start:
+
+        mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, tekst		//Funkcja liniowa y=ax+b.
+						Podaj a:
+        mov     edx, [dlg]
+        int     80h
+
+        mov     eax, 3
+        mov     ebx, 0
+        mov     ecx, a
+        mov     edx, [dlga]
+        int     80h
+
+        mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, tekst2		//Podaj b:
+        mov     edx, [dlg2]
+        int     80h
+
+        mov     eax, 3
+        mov     ebx, 0
+        mov     ecx, b
+        mov     edx, [dlgb]
+        int     80h
+
+        mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, tekst3		//Podaj punkt, w ktorym program ma olbiczyc wartosc funkcji:
+        mov     edx, [dlg3]
+	int	80h
+
+        mov     eax, 3
+        mov     ebx, 0
+        mov     ecx, x
+        mov     edx, [dlgx]
+        int     80h
+
+	mov	ecx, [a]
+	sub	ecx, 48
+	mov	edx, [x]
+	sub	edx, 48
+	mov	[a], ecx
+	imul	edx, [a]
+	add	edx, [b]
+	mov	[y], edx
+
+	mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, tekst4		//y=...
+        mov     edx, [dlg4]
+        int     80h
+
+	mov	eax, 4
+	mov	ebx, 1
+	mov	ecx, [y]
+	mov	edx, [dlgy]
+	int	80h
+
+	mov	eax, 1
+	int	80h
+
+section .data
+
+	tekst	db	"Funkcja liniowa y=ax+b", 0ah, "Podaj a:", 0ah
+	dlg	dd	$-tekst
+	a	dd	0
+	dlga	dd	$-a
+	tekst2	db	"Podaj b:", 0ah
+	dlg2	dd	$-tekst2
+	b	dd	0
+	dlgb	dd	$-b
+	tekst3	db	"Podaj punkt, w ktorym program ma obliczyc wartosc funkcji:", 0ah
+	dlg3	db	$-tekst3
+	x	dd	0
+	dlgx	dd	$-x
+	tekst4	db	"Wartosc funkcji w podanym punkcie wynosi: "
+	y	dd	0
+	dlgy	dd	$-y
