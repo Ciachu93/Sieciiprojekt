@@ -182,7 +182,8 @@
             this.textBox4.Location = new System.Drawing.Point(688, 73);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(417, 312);
+            this.textBox4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox4.Size = new System.Drawing.Size(517, 312);
             this.textBox4.TabIndex = 14;
             // 
             // button7

@@ -6,3 +6,12 @@ c:\dotnet\klientFTP\klientFTP\obj\Debug\klientFTP.Properties.Resources.resources
 c:\dotnet\klientFTP\klientFTP\obj\Debug\klientFTP.csproj.GenerateResource.Cache
 c:\dotnet\klientFTP\klientFTP\obj\Debug\klientFTP.exe
 c:\dotnet\klientFTP\klientFTP\obj\Debug\klientFTP.pdb
+C:\dotnet\repoFTP\klientFTP\bin\Debug\klientFTP.exe.config
+C:\dotnet\repoFTP\klientFTP\obj\Debug\klientFTP.exe
+C:\dotnet\repoFTP\klientFTP\obj\Debug\klientFTP.pdb
+C:\dotnet\repoFTP\klientFTP\bin\Debug\klientFTP.exe
+C:\dotnet\repoFTP\klientFTP\bin\Debug\klientFTP.pdb
+C:\dotnet\repoFTP\klientFTP\obj\Debug\klientFTP.csprojResolveAssemblyReference.cache
+C:\dotnet\repoFTP\klientFTP\obj\Debug\klientFTP.Form1.resources
+C:\dotnet\repoFTP\klientFTP\obj\Debug\klientFTP.Properties.Resources.resources
+C:\dotnet\repoFTP\klientFTP\obj\Debug\klientFTP.csproj.GenerateResource.Cache

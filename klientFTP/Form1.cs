@@ -136,20 +136,23 @@ namespace klientFTP
             int indeks = listBox1.SelectedIndex;
             if(listBox1.Items[indeks].ToString()[0]!='[')
             {
-                if(MessageBox.Show("Czy pobrać plik?","Pobieranie pliku",MessageBoxButtons.OKCancel,MessageBoxIcon.Question)==DialogResult.OK)
+                //if(MessageBox.Show("Czy pobrać plik?","Pobieranie pliku",MessageBoxButtons.OKCancel,MessageBoxIcon.Question)==DialogResult.OK)
                 {
                     try
                     {
                         PlikLokalny = listBox1.Items[indeks].ToString();
                         FileInfo fi = new FileInfo(PlikLokalny);
-                        if(fi.Exists==false)
+                        if (fi.Exists == false)
                         {
-                            klient.DownloadFileAsync(listBox1.Items[indeks].ToString(),PlikLokalny);
-                          //  button3.Enabled=false;
-                           // button4.Enabled=false;
+                            klient.DownloadFileAsync(listBox1.Items[indeks].ToString(), PlikLokalny);
+                            //  button3.Enabled=false;
+                            // button4.Enabled=false;
                         }
                         else
-                            MessageBox.Show("Plik istnieje ");
+                        {
+                            System.Threading.Thread.Sleep(2000);
+                            this.button7_Click(sender, e);
+                        }
                     }
                     catch(Exception ex)
                     {
