@@ -32,6 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="KlasaRemoting">
+      <HintPath>..\..\..\Users\John\Documents\Visual Studio 2013\Projects\KlasaRemoting\KlasaRemoting\obj\Debug\KlasaRemoting.dll</HintPath>
+    </Reference>
+    <Reference Include="newclass">
+      <HintPath>..\..\newclass\newclass\bin\Debug\newclass.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

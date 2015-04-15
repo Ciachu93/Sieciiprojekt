@@ -15,3 +15,7 @@ C:\dotnet\repoFTP\klientFTP\obj\Debug\klientFTP.csprojResolveAssemblyReference.c
 C:\dotnet\repoFTP\klientFTP\obj\Debug\klientFTP.Form1.resources
 C:\dotnet\repoFTP\klientFTP\obj\Debug\klientFTP.Properties.Resources.resources
 C:\dotnet\repoFTP\klientFTP\obj\Debug\klientFTP.csproj.GenerateResource.Cache
+C:\dotnet\repoFTP\klientFTP\bin\Debug\KlasaRemoting.dll
+C:\dotnet\repoFTP\klientFTP\bin\Debug\newclass.dll
+C:\dotnet\repoFTP\klientFTP\bin\Debug\KlasaRemoting.pdb
+C:\dotnet\repoFTP\klientFTP\bin\Debug\newclass.pdb
